@@ -319,7 +319,7 @@ body[class*="ss-v-classico-"].theme-light {
 /* Cabeçalho com uma faixa de céu no tema escuro: nebulosas em gradiente e estrelas desenhadas, nítidas em qualquer largura. */
 
 /* Títulos em Cinzel, como no logo. */
-body :is(.markdown-rendered, .markdown-source-view) :is(h1, h2, h3, h4), body .inline-title, body .nav-folder-title-content {
+body :is(.markdown-rendered, .markdown-source-view) :is(h1, h2, h3, h4), body .inline-title {
 	font-family: var(--ss-font-titulo);
 	letter-spacing: 0.02em;
 }
@@ -343,11 +343,6 @@ body :is(.markdown-rendered, .markdown-source-view) h3 {
 
 body :is(.markdown-rendered, .markdown-source-view) h4 {
 	font-size: var(--sl-text-lg);
-}
-
-body .nav-folder-title-content {
-	font-size: 0.95rem;
-	color: var(--sl-color-accent-high);
 }
 
 /* Tabelas de regra. */
@@ -560,15 +555,6 @@ body:is([class*="ss-v-holograma-"], [class*="ss-v-radar-"], [class*="ss-v-circui
 
 body:is([class*="ss-v-holograma-"], [class*="ss-v-radar-"], [class*="ss-v-circuito-"], [class*="ss-v-navegacao-"]).theme-light body::after {
 	display: none;
-}
-
-body:is([class*="ss-v-holograma-"], [class*="ss-v-radar-"], [class*="ss-v-circuito-"], [class*="ss-v-navegacao-"]) .nav-folder-title-content {
-	font-family: var(--ss-tecnica);
-	font-size: 0.78rem;
-	font-weight: 600;
-	letter-spacing: 0.18em;
-	text-transform: uppercase;
-	color: var(--ss-ciano);
 }
 
 body:is([class*="ss-v-holograma-"], [class*="ss-v-radar-"], [class*="ss-v-circuito-"], [class*="ss-v-navegacao-"]) .nav-file-title.is-active {
@@ -910,10 +896,6 @@ body:is([class*="ss-v-constelacao-"], :not([class*="ss-v-"])) .callout {
 }
 
 /* Barra lateral: grupos em Cinzel e item ativo com estrela. */
-body:is([class*="ss-v-constelacao-"], :not([class*="ss-v-"])) .nav-folder-title-content {
-	color: var(--ss-ouro);
-	letter-spacing: 0.08em;
-}
 
 body:is([class*="ss-v-constelacao-"], :not([class*="ss-v-"])) .nav-file-title.is-active {
 	background: linear-gradient(90deg, rgb(var(--ss-ouro-rgb) / 0.22), transparent);
@@ -989,14 +971,6 @@ body[class*="ss-v-observatorio-"].theme-light {
 
 body[class*="ss-v-observatorio-"].theme-light {
 	background-blend-mode: multiply;
-}
-body[class*="ss-v-observatorio-"] .nav-folder-title-content {
-	font-family: var(--ss-display);
-	font-size: 1.05rem;
-	font-weight: 600;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
-	color: var(--ss-latao);
 }
 
 body[class*="ss-v-observatorio-"] .sidebar-content a {
@@ -1228,15 +1202,6 @@ body[class*="ss-v-nebulosa-"].theme-light {
 	   sempre, só para esconder o movimento. Com duas demãos o céu passa bem apagado pelo vidro. */
 }
 
-body[class*="ss-v-nebulosa-"] .nav-folder-title-content {
-	font-size: 0.9rem;
-	letter-spacing: 0.1em;
-	background: linear-gradient(90deg, var(--ss-pessego), var(--ss-rosa));
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-}
-
 body[class*="ss-v-nebulosa-"] .nav-file-title.is-active {
 	background: linear-gradient(90deg, rgb(var(--ss-rosa-rgb) / 0.28), rgb(var(--ss-lilas-rgb) / 0.12));
 	color: var(--sl-color-white);
@@ -1391,12 +1356,6 @@ body[class*="ss-v-codex-"].theme-light {
 
 body[class*="ss-v-codex-"].theme-light main {
 	background: transparent;
-}
-body[class*="ss-v-codex-"] .nav-folder-title-content {
-	font-family: 'Cinzel', serif;
-	font-size: 0.85rem;
-	letter-spacing: 0.14em;
-	color: var(--sl-color-accent);
 }
 
 body[class*="ss-v-codex-"] .sidebar-content a {
@@ -1607,15 +1566,6 @@ body[class*="ss-v-astrolabio-"].theme-light {
 
 body[class*="ss-v-astrolabio-"].theme-light {
 	background-blend-mode: multiply;
-}
-
-body[class*="ss-v-astrolabio-"] .nav-folder-title-content {
-	font-family: var(--ss-display);
-	font-size: 1.05rem;
-	font-weight: 600;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
-	color: var(--ss-latao);
 }
 
 body[class*="ss-v-astrolabio-"] .sidebar-content a {
