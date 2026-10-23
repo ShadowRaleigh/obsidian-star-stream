@@ -1,0 +1,13 @@
+{
+	"name": "Star Stream",
+	"version": "0.2.0",
+	"minAppVersion": "1.5.0",
+	"author": "Zennova",
+	"authorUrl": "https://github.com/ShadowRaleigh",
+	"repo": "ShadowRaleigh/obsidian-star-stream",
+	"screenshot": "previa.png",
+	"modes": [
+		"dark",
+		"light"
+	]
+}
