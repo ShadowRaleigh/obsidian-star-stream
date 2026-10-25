@@ -6,10 +6,12 @@ Os temas do livro de regras do **Star Stream**, agora para o Obsidian.
 
 ## O que vem no tema
 
-- **10 temas** em duas famílias:
-  - **Astra:** Clássico, Constelação, Nebulosa, Observatório, Astrolábio e Códex;
-  - **Sci-fi:** Radar, Holograma, Circuito e Navegação.
-- **6 paletas de cor** em cada tema, num total de 60 combinações.
+- **Dois temas:**
+  - **Astra:** céu estrelado com nebulosas, títulos em Cinzel;
+  - **Sci-fi:** grade hexagonal de holograma com estrelas, títulos em fonte técnica.
+- **Paletas de cor bem diferentes entre si:**
+  - **Astra (9):** Ouro, Cobre, Rubi, Rosa, Ametista, Azul, Prata, Aurora e Pátina;
+  - **Sci-fi (8):** Ciano, Gelo, Ultravioleta, Neon, Escarlate, Sinal, Âmbar e Fósforo.
 - **Claro e escuro**, que seguem o modo do próprio Obsidian.
 - **Fontes e desenhos embutidos**, para funcionar sem internet.
 
@@ -17,7 +19,9 @@ Os temas do livro de regras do **Star Stream**, agora para o Obsidian.
 
 1. Instale o plugin **Style Settings**, que fica nos plugins da comunidade.
 2. Abra Configurações → Style Settings → Star Stream.
-3. Escolha na lista "Tema · Paleta". O padrão é Constelação · Ouro.
+3. Escolha na lista "Tema e paleta". O padrão é Astra · Ouro.
+
+Quem usava uma versão anterior, com dez temas, não precisa fazer nada: um tema antigo vira o Astra ou o Sci-fi da mesma família, na paleta padrão.
 
 ## Blocos especiais
 
